@@ -19,7 +19,7 @@ jobs:
          uses: actions/setup-java@v3
          with:
            distribution: 'adopt'
-           java-version: '17'
+           java-version: '11'
        ### use sonarqube to do code analysis. Ensure that you have a sonarqube server running and you've created a project. 
       #  - name: code analysis with sonarqube
       #    run: mvn sonar:sonar -Dsonar.projectKey=xashy-webapp -Dsonar.host.url=${{secrets.SONAR_HOST_URL}} -Dsonar.token=${{secrets.SONAR_LOGIN_TOKEN}}
